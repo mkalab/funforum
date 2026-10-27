@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --lime: #b9ef00;
+  --lime-dark: #6ea000;
+  --pink: #ff4b9b;
+  --ink: #526600;
+  --line: #88a819;
+  --cream: #fffdf3;
+}
+
+body {
+  background-color: #fffdf3;
+  color: #800000;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "MS PGothic", "Sawarabi Gothic", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+a:hover {
+  color: #ff3990;
+}
+
+.page {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  text-align: center;
+  background: linear-gradient(to bottom,
+      #ffb04b 0%, #ffb04b 24%,
+      #ffd38c 24%, #ffd38c 38%,
+      #fff0d0 38%, #fff0d0 50%,
+      #fffaf0 50%, #fffaf0 100%);
+}
+
+.logo-text {
+  display: inline-block;
+  transform: rotate(-3deg);
+  color: #efff00;
+  font-size: 38px;
+  font-weight: bold;
+  text-shadow: 0.5px 0.5px 0 #fff, -0.5px -0.5px 0 #fff,
+    0.5px -0.5px 0 #fff, -0.5px 0.5px 0 #fff;
+}
+
+.topnav {
+  display: flex;
+  height: 20px;
+  margin-bottom: 7px;
+  border: 0.5px solid var(--lime-dark);
+  background: var(--lime);
+}
+
+.topnav a {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px #ffffff;
+  border: 0.5px solid #83a800;
+}
+
+footer {
+  /* display: grid;
+            grid-template-columns: 75px 1fr; */
+  display: flex;
+  align-items: stretch;
+  margin: 10px 0 50px;
+  font-size: 10px;
+  border: 3px solid #77951c;
+  background: var(--lime);
+  color: #668000;
+  text-align: center;
+  box-shadow: 1px 1px #526b1d;
+}
+
+footer .footer-logo {
+  /* grid-column: 1;
+            grid-row: 1 / 3; */
+  float: left;
+  text-align: left;
+  padding: 7px 0 7px 12px;
+  align-items: center;
+  color: #f4ff43;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  text-shadow: 1px 1px #ff5ea8;
+}
+
+footer .footer-links {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  white-space: nowrap;
+  /* border: 1px solid #658000; */
+}
+
+footer .footer-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #658000;
+}
+
+footer .footer-links a:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+footer small {
+  /* grid-column: 1 / -1; */
+  display: block;
+  padding-top: 12px;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}

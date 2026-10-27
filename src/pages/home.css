@@ -1,0 +1,63 @@
+﻿.home-page .layout {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.home-page .about {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1;
+}
+
+.home-page .board-table {
+  float: left;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 50px 0 20px 0;
+  height: 350px;
+}
+
+.home-page .board-table td {
+  border: 1px solid black;
+  vertical-align: top;
+  text-align: left;
+  line-height: 1.5;
+  padding: 5px 8px;
+  width: 100px;
+}
+
+.home-page .board-table a {
+  display: block;
+  font-size: 14px;
+}
+
+.home-page .new-tag {
+  color: rgb(255, 0, 0);
+  display: inline;
+  text-shadow: 0.5px 0.5px 0px #fff,
+    -0.5px -0.5px 0px #fff,
+    0.5px -0.5px 0px #fff,
+    -0.5px 0.5px 0px #fff;
+  font-size: 14px;
+}
+
+.home-page .counter {
+  margin: 0 10px 80px 10px;
+}
+
+.home-page .counter-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 760px;
+}
+
+.home-page .counter-info span,
+.home-page .counter-info marquee {
+  flex: 1;
+  width: 33.33%;
+  white-space: nowrap;
+  font-size: 13px;
+}
